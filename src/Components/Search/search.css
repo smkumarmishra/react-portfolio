@@ -1,0 +1,33 @@
+.search-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox {
+  background-color: white;
+  width: 400px;
+}
+.searchBox input {
+  padding: 20px 15px;
+  outline: none;
+  border: none;
+  width: 87%;
+}
+.searchBox .srch-btn {
+  outline: none;
+  border: none;
+  width: 10%;
+  cursor: pointer;
+  background-color: darkgray;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .searchBox {
+    background-color: white;
+    width: 300px;
+  }
+}

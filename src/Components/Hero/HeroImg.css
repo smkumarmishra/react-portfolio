@@ -1,0 +1,60 @@
+.hero-img {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 75vh;
+  position: relative;
+}
+.hero-img::before {
+  content: "";
+  background: url("https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.hero-img h1 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+.hero-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnDiv {
+  color: white;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.btnDiv .btnLink {
+  color: whitesmoke;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: rgb(47, 47, 239);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btnDiv .btnLink:hover{
+  transform: scale(1.1,1.2);
+  background-color: rgb(12, 12, 207);
+  box-shadow: 2px 2px 3px 1px gray;
+}
+@media (max-width: 763px) {
+  .hero-img h1 {
+    font-size: 1.7rem;
+  }
+}

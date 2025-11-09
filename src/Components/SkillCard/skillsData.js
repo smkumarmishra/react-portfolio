@@ -1,0 +1,68 @@
+const skillsData = [
+  {
+    id: 1,
+    iconClass: "fa-brands fa-html5 fa-beat-fade fa-6x",
+    color: "#d80e65",
+    title: "HTML5",
+    desc: "HTML5 (HyperText Markup Language 5) is the latest version of HTML used to structure web pages. It was developed by W3C and WHATWG in 2014.",
+    link: "https://www.w3schools.com/html/default.asp",
+  },
+  {
+    id: 2,
+    iconClass: "fa-brands fa-css3 fa-beat-fade fa-6x",
+    color: "#7247f6",
+    title: "CSS3",
+    desc: "CSS (Cascading Style Sheets) is a stylesheet language used to design and style web pages. It was developed by Håkon Wium Lie in 1994.",
+    link: "https://www.w3schools.com/css/default.asp",
+  },
+  {
+    id: 3,
+    iconClass: "fa-brands fa-js fa-beat fa-6x",
+    color: "#ffd43b",
+    title: "JavaScript",
+    desc: "JavaScript (JS) is a scripting language used to make web pages interactive and dynamic. It was developed by Brendan Eich in 1995.",
+    link: "https://www.w3schools.com/js/default.asp",
+  },
+  {
+    id: 4,
+    iconClass: "fa-brands fa-react fa-beat-fade fa-6x",
+    color: "#4306fb",
+    title: "ReactJS",
+    desc: "ReactJS is a JavaScript library used to build fast and dynamic UIs. It was developed by Jordan Walke at Facebook in 2013.",
+    link: "https://www.w3schools.com/react/default.asp",
+  },
+  {
+    id: 5,
+    iconClass: "fa-solid fa-leaf fa-beat fa-6x",
+    color: "#2af81b",
+    title: "MongoDB",
+    desc: "MongoDB is a NoSQL database used to store data in JSON-like format. It was developed by Dwight Merriman, Eliot Horowitz, and Kevin Ryan in 2009.",
+    link: "https://www.w3schools.com/mongodb/default.asp",
+  },
+  {
+    id: 6,
+    iconClass: "fa-brands fa-node-js fa-fade fa-6x",
+    color: "#0bfab2",
+    title: "Node.js / API",
+    desc: "Node.js is a JS runtime used to build fast, scalable backend apps. It was developed by Ryan Dahl in 2009.",
+    link: "https://www.w3schools.com/nodejs/default.asp",
+  },
+  {
+    id: 7,
+    iconClass: "fa-brands fa-css fa-fade fa-6x",
+    color: "#38bdf8",
+    title: "Tailwind CSS",
+    desc: "Tailwind CSS is a utility-first CSS framework to build responsive UIs quickly. It was developed by Adam Wathan in 2017.",
+    link: "https://tailwindcss.com/docs/installation/using-vite",
+  },
+  {
+    id: 8,
+    iconClass: "fa-brands fa-bootstrap fa-beat-fade fa-6x",
+    color: "#602af4",
+    title: "Bootstrap",
+    desc: "Bootstrap is a front-end framework to build responsive websites easily. It was created by Mark Otto and Jacob Thornton at Twitter in 2011.",
+    link: "https://www.w3schools.com/bootstrap/default.asp",
+  },
+];
+
+export default skillsData;

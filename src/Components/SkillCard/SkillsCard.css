@@ -1,0 +1,78 @@
+/*=============== SKILLS SECTION ===============*/
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.icon-container {
+  background-color: #191f36;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 450px;
+  height: 400px;
+}
+
+.icon-container i {
+  font-size: 10rem;
+  color: #00ffee;
+}
+
+.icon-container p {
+  margin-top: 0.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.icon-container .text-diff {
+  height: 100%;
+  text-transform: none;
+  font-size: 18px;
+  width: 100%;
+}
+.icon-container .text-diff a {
+  color: #0056b3;
+  font-size: 15px;
+}
+
+/*   this is button style */
+.resume-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/*  new btn */
+@media screen and (max-width: 600px) {
+  .download-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  .resume-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
