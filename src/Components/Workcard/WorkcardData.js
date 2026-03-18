@@ -6,6 +6,7 @@ import pro4 from "../../assets/proj4.png";
 import pro3 from "../../assets/proj3.png";
 import pro5 from "../../assets/proj5.png";
 import pro6 from "../../assets/proj6.png";
+import pro7 from "../../assets/pro7.png";
 const workcardData = [
   {
     id: 1,
@@ -17,11 +18,11 @@ const workcardData = [
   },
   {
     id: 2,
-    imgsrc: pro2,
-    title: "QuizGuru ",
-    text: "Quiz Guru is a full-stack web application built using React.js for the frontend and a Node.js + Express backend. It allows users to sign up, log in, and take interactive quizzes on various topics. The app provides real-time score tracking, secure authentication, and a responsive UI for a smooth user experience. Designed to test and improve knowledge while showcasing full MERN stack development skills. ",
-    view: "https://www.linkedin.com/posts/saurbh-mishra_grocyqueen-reactjs-tailwindcss-activity-7379961936047689728-IA9m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwpv8B1Xe9UKE2MSFUisyuYLm_GBr41xM",
-    source: "https://github.com/smkumarmishra/ReactApp-GrocyQueen",
+    imgsrc: pro7,
+    title: "Hospital Booking Management System ",
+    text: "The Hospital Booking Management System is a full-stack web application designed to streamline the process of managing hospital appointments and patient records. It allows patients to register, book appointments online, and receive automated notifications, while administrators can efficiently manage doctors, schedules, and patient data. The system also includes features like billing, telemedicine integration, and real-time appointment tracking, improving overall hospital efficiency and patient experience.",
+    view: "https://hospital-booking-mangement-mern.vercel.app/",
+    source: "https://github.com/smkumarmishra/Hospital_Booking_Mangement_MERN",
   },
   {
     id: 3,
@@ -54,6 +55,14 @@ const workcardData = [
     text: "This Weather App is a web application that provides real-time weather updates for any location. It uses a weather API to fetch live data such as temperature, humidity, wind speed, and weather conditions. Built with React.js for the frontend and API integration for dynamic data fetching, the app features a clean, responsive design and allows users to search for cities worldwide. It helps users stay informed about current and forecasted weather in an easy-to-use interface.",
     view: "https://smkumarmishra.github.io/Weather-Report/",
     source: "https://github.com/smkumarmishra/Weather-Report",
+  },
+  {
+    id: 7,
+    imgsrc: pro2,
+    title: "QuizGuru ",
+    text: "Quiz Guru is a full-stack web application built using React.js for the frontend and a Node.js + Express backend. It allows users to sign up, log in, and take interactive quizzes on various topics. The app provides real-time score tracking, secure authentication, and a responsive UI for a smooth user experience. Designed to test and improve knowledge while showcasing full MERN stack development skills. ",
+    view: "https://www.linkedin.com/posts/saurbh-mishra_grocyqueen-reactjs-tailwindcss-activity-7379961936047689728-IA9m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwpv8B1Xe9UKE2MSFUisyuYLm_GBr41xM",
+    source: "https://github.com/smkumarmishra/ReactApp-GrocyQueen",
   },
 ];
 

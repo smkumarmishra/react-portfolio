@@ -15,6 +15,9 @@
   padding: 2rem 1.2rem;
   border-radius: 8px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .project-card img {
   width: 100%;
@@ -33,12 +36,18 @@
   font-family: cursive;
   text-align: justify;
 }
+.pro-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 .pro-details .pro-btn {
   display: flex;
 
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
+  margin-top: auto;
 }
 .pro-btn .btn {
   padding: 0.6rem 1rem;
