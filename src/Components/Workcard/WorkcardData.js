@@ -29,8 +29,8 @@ const workcardData = [
     imgsrc: pro4,
     title: "GrocyQueen ",
     text: "#GrocyQueen is a responsive grocery store UI application built with React, Tailwind CSS, and React Icons. It provides a modern and user-friendly interface to explore grocery items with a well-structured layout. The app features categorized sections for different grocery products, making it easy for users to browse through items quickly. With a responsive design, GrocyQueen ensures smooth usability across devices—whether desktop, tablet, or mobile. Its clean visuals, intuitive navigation, and organized categories make it a perfect template for any grocery-related web application.. ",
-    view: "https://www.linkedin.com/posts/saurbh-mishra_mern-fullstackdevelopment-reactjs-ugcPost-7392129458813685760-LMye?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwpv8B1Xe9UKE2MSFUisyuYLm_GBr41xM",
-    source: "https://github.com/smkumarmishra/QUIZGURU_MERN_Project",
+    view: "https://smkumarmishra.github.io/ReactApp-GrocyQueen/",
+    source: "https://github.com/smkumarmishra/ReactApp-GrocyQueen",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const workcardData = [
     imgsrc: pro5,
     title: "E-commerce ",
     text: "My Shop is a frontend e-commerce web application that provides a complete shopping experience with all CRUD (Create, Read, Update, Delete) operations. Users can view products, add or edit items in the cart, and remove them as needed. Built using React.js, the app offers a dynamic and responsive user interface with efficient state management. It demonstrates key frontend functionalities like form handling, product management, and interactive UI updates. ",
-    view: "https://www.linkedin.com/posts/saurbh-mishra_newproject-activity-7339555868218150913-BSs4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwpv8B1Xe9UKE2MSFUisyuYLm_GBr41xM",
+    view: "https://684711f509c2e32ac3087875--curious-conkies-1147ea.netlify.app/",
     source: "https://github.com/smkumarmishra/E-com",
   },
   {
