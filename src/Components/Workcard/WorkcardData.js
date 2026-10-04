@@ -7,14 +7,15 @@ import pro3 from "../../assets/proj3.png";
 import pro5 from "../../assets/proj5.png";
 import pro6 from "../../assets/proj6.png";
 import pro7 from "../../assets/pro7.png";
+import proj8 from "../../assets/proj8.png";
 const workcardData = [
   {
     id: 1,
-    imgsrc: pro1,
-    title: "Food Delivery ",
-    text: " This is a dynamic and responsive food delivery web application inspired by platforms like Swiggy and Zomato. It allows users to Browse popular and categorized dishes - Search dishes or restaurant types -Add items to a cart - Adjust item quantities and place orders - Register and log in via localStorage ",
-    view: "https://smkumarmishra.github.io/Hangar-Food-Delivery-app/",
-    source: "https://github.com/smkumarmishra/Hangar-Food-Delivery-app",
+    imgsrc: proj8,
+    title: "GenAI Job Preparation Platform",
+    text: "Built and deployed a GenAI-powered Job Preparation Platform using the MERN Stack and Google Gemini AI, featuring AI-generated interview reports, resume analysis, PDF processing, JWT authentication, REST APIs, and MongoDB integration. Fully deployed with Vercel and Render. ",
+    view: "https://gen-ai-fullstack-job-preparation.vercel.app/",
+    source: "https://github.com/smkumarmishra/genAI-fullstack-job-preparation",
   },
   {
     id: 2,
@@ -63,6 +64,14 @@ const workcardData = [
     text: "Quiz Guru is a full-stack web application built using React.js for the frontend and a Node.js + Express backend. It allows users to sign up, log in, and take interactive quizzes on various topics. The app provides real-time score tracking, secure authentication, and a responsive UI for a smooth user experience. Designed to test and improve knowledge while showcasing full MERN stack development skills. ",
     view: "https://www.linkedin.com/posts/saurbh-mishra_grocyqueen-reactjs-tailwindcss-activity-7379961936047689728-IA9m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwpv8B1Xe9UKE2MSFUisyuYLm_GBr41xM",
     source: "https://github.com/smkumarmishra/ReactApp-GrocyQueen",
+  },
+  {
+    id: 8,
+    imgsrc: pro1,
+    title: "Food Delivery ",
+    text: " This is a dynamic and responsive food delivery web application inspired by platforms like Swiggy and Zomato. It allows users to Browse popular and categorized dishes - Search dishes or restaurant types -Add items to a cart - Adjust item quantities and place orders - Register and log in via localStorage ",
+    view: "https://smkumarmishra.github.io/Hangar-Food-Delivery-app/",
+    source: "https://github.com/smkumarmishra/Hangar-Food-Delivery-app",
   },
 ];
 
